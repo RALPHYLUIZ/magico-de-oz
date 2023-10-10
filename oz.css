@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    height: 100vh;
+    background-image: url(./img/home-page-oz.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+header{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;   
+}
+
+header a{
+    color: rgb(153, 215,166);
+    font-family: 'Inter', sans-serif;
+    font-size: 2rem;
+    align-items: ;
+    border-bottom: 4px solid transparent;
+}
+
+header a:hover{
+    border-bottom: 4px solid rgb(153, 215,166);
+
+}
+
+header .logo-oz-amarelo:hover{
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid transparent;
+}
+
+main{
+    flex-grow: 1;
+    display:flex;
+}
+
+.filme-container{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: inherit;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+
+.descricao P{
+    width: 530px;
+    text-align: center;
+    font-family: 'Rozha One', serif;;
+    font-size: 2.5rem;
+    color: #EDE74E;
+}
+.descricao p{
+    text-align: center;
+}
+
+.trailers{
+    height: 130px;
+    display: flex;
+    gap: 32px;
+}
+.trailers img{
+    width: 250px;
+}
+
+.social-container i:hover{
+    color: #22fffe;
+}
