@@ -75,16 +75,18 @@ main{
 }
 
 .trailers{
-    background-color: #22fffe;
+
     height: 700px;
     align-items: end;
     display: flex;
     gap: 60px;
 
 }
-.trailers img{
-    width: 250px;
 
+.trailers a{
+    background-color: #22fffe;
+    justify-content: center;
+    display: flex;
     
 
 }
