@@ -52,11 +52,8 @@ main{
     height: 455px;
     display: flex;
     flex-direction: column;
-    gap: 104px;
     
 }
-
-
 
 .descricao{
     width: 50px;
@@ -64,6 +61,7 @@ main{
     flex-grow: 1;
     display: flex;
     justify-content: left;
+    align-items: center;
     text-align: center;
 }
 
