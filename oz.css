@@ -27,14 +27,14 @@ header{
 }
 
 header a{
-    color: rgb(153, 215,166);
+    color: rgba(153, 215, 166, 76%);;
     font-family: 'Inter', sans-serif;
     font-size: 2rem;
     border-bottom: 4px solid transparent;
 }
 
 header a:hover{
-    border-bottom: 4px solid rgb(153, 215,166);
+    border-bottom: 4px solid rgba(153, 215, 166, 76%);
 
 }
 
@@ -48,10 +48,15 @@ main{
 }
 
 .filme-container{
-    flex-grow: -2;
+    width: 405px;
+    height: 455px;
     display: flex;
     flex-direction: column;
+    gap: 104px;
+    
 }
+
+
 
 .descricao{
     width: 50px;
@@ -75,22 +80,31 @@ main{
 }
 
 .trailers{
-
     height: 700px;
+    width: 648px;
     align-items: end;
     display: flex;
+    position: relative;
+    right: 1128px;
     gap: 60px;
 
 }
 
 .trailers a{
-    background-color: #22fffe;
     justify-content: center;
     display: flex;
     
 
 }
 
-.social-container i:hover{
-    color: #22fffe;
+.social-container {
+    height: 624px;
+    width: 85px;
+    color:#EDE74E;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 38px;
+
 }
