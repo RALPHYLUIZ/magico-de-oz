@@ -106,3 +106,92 @@ main{
     font-size: 38px;
 
 }
+
+/* TABLET */
+@media (max-width:768px){
+    body{
+        padding: 32px 0px 0px 0px;
+        background-image: url(./img/back\ tablet.png);
+    }
+    .social-container{
+        display: none;
+    }
+    .filme-container{
+        align-items: center;
+    }
+    .descricao{
+        padding: 60px;
+        justify-content: flex-start;
+        flex-grow: 0;
+    }
+    .descricao p{
+        text-align: center;
+    }
+    .trailers{
+        flex-direction: column;
+    }
+    .trailers img{
+        width: 320px;
+        height: 178px;
+    }
+    .trailers a:nth-child(3){
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+}
+
+/* MOBILE */
+@media (max-width:480px){
+    body{
+        background-image: url(./img/background-mobile.png);
+    }
+    header{
+        justify-content: space-between;
+        padding: 0px 24px 0 24px;
+        align-items: center;
+    }
+    header a{
+        border-bottom: none;
+        height: 48px;
+    }
+    header a:not(.logo-dc){
+        display: none;
+    }
+    header i.fas{
+        display: block;
+        color: #D040ff;
+        font-size: 32px;
+    }
+    .descricao{
+        padding: 0;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 32px;
+        height: 100%;
+        padding-bottom: 30px;
+    }
+    .descricao a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        outline: none;
+        width: 200px;
+        height: 50px;
+        background-color: #D040ff;
+        border: 4px solid #22FFFE;
+        color: #fff;
+        font-size: 1.2rem;
+        border-radius: 50px;
+    }
+    .descricao img{
+        width: 95vw;
+    }
+    .descricao p{
+        display: none;
+    }
+    .trailers{
+        display: none;
+    }
+}
